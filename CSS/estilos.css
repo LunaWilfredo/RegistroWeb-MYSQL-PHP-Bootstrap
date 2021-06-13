@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/*contenedor general de toso el contenido del cuerpo*/
+.contenedor-cuerpo{
+    /*border: 1px solid green;*/
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*cabecera*/
+header{
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 50px;
+    background: #254E70;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.titulo{
+    /*border: 1px solid red;*/
+    font-size: 30px;
+    width: 80%;
+    padding: 5px;
+    padding-left: 10px;
+    color: white;
+}
+
+.titulo a{
+    color: white;
+}
+
+nav{
+    /*border: 1px solid red;*/
+    width: 30%;
+    height: 50px;
+
+}
+
+nav ul{
+   /* border: 1px solid blue;*/
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav ul li{
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li i{
+    color: white;
+}
+
+nav ul li{
+    /*border: 1px solid green;*/
+    padding: 10px;
+    width: 50%;  
+    height: 50px;  
+}
+
+nav ul li input[type='text']{
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    color:  black;
+}
+    
+.btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #C33C54;
+    color: white;
+    border: 1px solid #C33C54;
+}
+
+/*--------REGISTRO FORMULARIO---------*/
+.contenedor-registro{
+    background: #37718E;
+    /*border: 1px solid green;*/
+    padding: 10px;
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+.titulo-registro{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+label{
+    color: white;
+}
+
+select{
+    border-radius: 20px;
+    border: 1px solid #8EE3EF;
+}
+
+.contenedor-registro input[type='text']{
+    border-radius: 20px;
+    border: 1px solid #8EE3EF;
+    text-align: center;
+}
+
+.btn-form{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background: #C33C54;
+    color: white;
+    margin-top: 10px;
+    border: 1px solid #C33C54;
+}
+
+.btn-form:hover{
+    background: #CA5369;
+    border: 1px solid #CA5369;
+}
+
+
+/*------------------CUERPO DE DATOS VISTA-----------*/
+.contenedor-mostrar{
+    width: 79%;
+    height: 820px;
+    border: 1px solid #8EE3EF;
+    padding: 10px;
+    background: #C5445C;
+}
+
+.tabla-datos{
+    width: 100%;
+    border: none;
+}
+.tabla-datos tr{
+    height: 20px;
+}
+
+.tabla-datos tr th{
+    width: 20px;
+    height: 10px;
+    font-size: 12px;
+    background: #37718E;
+    color: white;
+}
+
+.tabla-datos tr td{
+    text-align: center;
+    font-size: 14px;
+    background: #AEF3E7;
+}
+
+.tabla-datos tr td a i{
+    color: #254E70;
+}
+
+.tabla-datos tr td a i:hover{
+    color: #C5445C;
+}
+
+
+/*-----------PIE DE PAGINA-----------*/
+footer{
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 49px;
+    text-align: center;
+    background: #254E70;
+    color: white;
+}
+
+footer p{
+    line-height: 48px;
+}
+
+footer p a{
+    color: #8EE3EF;
+} 
+
+/*---------------------------------------------------------------------*/
+/*---------------------------DASHBOARD--------------------*/
+.contenedor-cuerpo-dash{
+    /*border: 1px solid green;*/
+    width: 100%;
+    height:840px;
+    padding: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*GRAFICO 1*/
+.contenedor-grafico-1{
+    border: 1px solid #254E70;
+    padding: 10px;
+    width: 50%;
+    height: 20%;
+    /*background: red;*/
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-grafico-1 .titulo-g-1{
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    color: #C5445C;
+    text-align: center;
+}
+/*GRAFICO 2*/
+.contenedor-grafico-2{
+    /*border: 1px solid blue;*/
+    padding: 10px;
+    width: 50%;
+    height: 25%;
+}
+
+.contenedor-grafico-2 .titulo-g-2{
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    color: #C5445C;
+    text-align: center;
+}
+/*CUADRO DE CONTEOS*/
+.contenedor-cuadro-datos{
+    border: 1px solid #254E70;
+    width: 50%;
+    height: 55%;
+    padding: 10px;
+    
+}
+.contenedor-cuadro-datos p{
+    color: #254E70 ;
+}
+
+
+.contenedor-cuadro-datos .cuadrado-cuerpo{
+    border: 1px solid red;
+    width: 100%;
+    height: 90%;
+    background: #C5445C;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cuadrado-cuerpo p{
+    /*border: 1px solid red;*/
+    width: 25%;
+    height: 20%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.cuadrado-cuerpo h5{
+    /*border: 1px solid red;*/
+    width: 25%;
+    height: 20%;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+/*TABLA DE IPS*/
+.tabla-contenido{
+    /*border: 1px solid blue;*/
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.tabla-conteo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.tabla-conteo tr th{
+    background: #37718E;
+    color: white;
+}
+.tabla-conteo tr td{
+    border: 1px solid #AEF3E7;
+    background: #AEF3E7;
+}
